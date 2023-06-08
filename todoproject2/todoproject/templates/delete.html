@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="box" style="background-color:#BCC6CC; width:40%; height:250px; margin-left:25%; margin-top:5%;">
+            <form method="post">
+    {% csrf_token %}
+
+                <div class="banner" style="font-family:Arial, Helvetica, sans-serif; margin-top:35px;"> Are you sure you have done this job?
+
+                </div><br>
+
+
+    <button style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">Confirm</button>
+    </div>
+
+</div>
+
+    </div>
+</div>
+
+
+
+{% endblock %}
+
